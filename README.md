@@ -1,5 +1,5 @@
-# ng2-expanding-table
-Simple table extension with sorting, filtering, paging, expandable rows, and infinite scroll for Angular2 apps
+# ng7-expanding-table
+Simple table extension with sorting, filtering, paging, expandable rows, and infinite scroll for Angular(7) apps
 
 # Usage & Demo
 [http://reseract.github.io/ng2-expanding-table/](http://valor-software.github.io/ng2-expanding-table/)
@@ -9,12 +9,12 @@ Simple table extension with sorting, filtering, paging, expandable rows, and inf
 
 ## Installation
 
-1. A recommended way to install ***ng2-expanding-table*** is through [npm](https://www.npmjs.com/search?q=ng2-expanding-table) package manager using the following command:
+1. A recommended way to install ***ng7-expanding-table*** is through [npm](https://www.npmjs.com/search?q=ng2-expanding-table) package manager using the following command:
 
   ```bash
-  npm i ng2-expanding-table --save
+  npm i ng7-expanding-table --save
   ```
-2. More information regarding using of ***ng2-expanding-table*** is located in
+2. More information regarding using of ***ng7-expanding-table*** is located in
   [demo](http://reseract.github.io/ng2-expanding-table/) and [demo sources](https://github.com/reseract/ng2-expanding-table/tree/master/demo).
 
 ## Documentation
@@ -82,6 +82,12 @@ Please follow this guidelines when reporting bugs and feature requests:
 2. Please **always** write steps to reproduce the error. That way we can focus on fixing the bug, not scratching our heads trying to reproduce it.
 
 Thanks for understanding!
+
+## Troubleshooting for angular 7
+```bash
+Error: Template parse errors: "let-" is only supported on ng-template elements.
+```
+way to resolve: replacing 'template' elements to 'ng-template'.
 
 ### License
 
